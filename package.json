@@ -7,33 +7,36 @@
     "start": "webpack-dev-server --config webpack.config.dev.js --port 3000"
   },
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "react-router-dom": "^5.1.2"
   },
   "devDependencies": {
     "@babel/core": "^7.3.4",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.5",
     "babel-preset-react-app": "^7.0.2",
+    "css-loader": "^3.2.0",
     "eslint": "^6.6.0",
     "eslint-loader": "^3.0.2",
     "html-webpack-plugin": "^3.2.0",
-    "webpack": "^4.29.6",      
-    "webpack-cli": "^3.3.10",  
+    "style-loader": "^1.0.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.9.0"
-  },                     
-  "babel": {     
+  },
+  "babel": {
     "presets": [
       "babel-preset-react-app"
-    ]               
-  },             
+    ]
+  },
   "eslintConfig": {
-    "parser": "babel-eslint"           
-  },           
-  "env": {     
+    "parser": "babel-eslint"
+  },
+  "env": {
     "browser": true,
     "node": true,
     "es6": true
-  }            
-}              
-         
+  }
+}
