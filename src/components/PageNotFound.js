@@ -1,0 +1,11 @@
+import React from "react";
+                                                          
+// const PageNotFound = () => <h1>Sorry, Page not found.</h1>
+                            
+function PageNotFound() {
+  return (            
+    <h1>Sorry, Page not found.</h1> 
+  )                                 
+}         
+                                                           
+export default PageNotFound;                              
